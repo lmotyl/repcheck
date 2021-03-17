@@ -1,0 +1,16 @@
+{
+    "name": "lmotyl/repcheck",
+    "description": "Simple app to check latest revision check at repos",
+    "type": "project",
+    "license": "GNU",
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "^10.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": { "RepCheck\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "RepCheck\\Tests\\": "tests/" }
+    }
+}
